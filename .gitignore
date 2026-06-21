@@ -1,5 +1,10 @@
 # Nested upstream clones, managed separately from this outer repo
 /minecolonies/
+/blockui/
+/domum-ornamentum/
+/structurize/
+/Piston-Unlimited/
+/OperaPublicaCreator/
 
 # IDE and editor files
 .idea/
