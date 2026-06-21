@@ -1,0 +1,9 @@
+rootProject.name = 'minecolonies-fabric-port'
+
+// Composite build — each mod keeps its own build.gradle and project structure
+// Dependencies between mods resolve automatically via Gradle's dependency substitution
+includeBuild 'blockui'
+includeBuild 'domum-ornamentum'
+includeBuild 'minecolonies'
+includeBuild 'structurize'
+includeBuild 'Piston-Unlimited'
