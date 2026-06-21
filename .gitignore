@@ -1,10 +1,22 @@
 # Nested upstream clones, managed separately from this outer repo
 /minecolonies/
+/blockui/
+/domum-ornamentum/
+/structurize/
+/Piston-Unlimited/
+/OperaPublicaCreator/
+/ldtteam-common/
 
 # IDE and editor files
 .idea/
 .vscode/
 *.iml
+.project
+.settings/
+
+# Outer workspace build artifacts
+.gradle/
+build/
 
 # Editor swap and backup files
 *.swp
