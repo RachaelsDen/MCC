@@ -1,0 +1,15 @@
+# Nested upstream clones, managed separately from this outer repo
+/minecolonies/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Editor swap and backup files
+*.swp
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
