@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a public repo improvement, workflow addition, or planning/documentation improvement.
+title: "feature: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What gap are you trying to solve?
+      placeholder: Describe the need or pain point.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should the repo or workflow add or change?
+      placeholder: Describe the change you want.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other options you considered?
+      placeholder: Optional alternatives or tradeoffs.
+    validations:
+      required: false

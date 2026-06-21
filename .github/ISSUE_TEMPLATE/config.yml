@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: MineColonies upstream issues
+    url: https://github.com/ldtteam/minecolonies/issues
+    about: Use the upstream tracker for issues in the current upstream mod code rather than the outer MCC scaffold.
